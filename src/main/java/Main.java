@@ -35,6 +35,7 @@ public class Main {
         }
         // girişe tıklar
         WebElement elem =driver.findElement(By.cssSelector("#login > div > div > div > div > form > button"));
+        //Bu kısımda uzun bir döngüye giriyor
         elem.click();
         try {
             Thread.sleep(2000);
